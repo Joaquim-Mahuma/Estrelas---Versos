@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-pt">
 <head>
+    <meta name="theme-color" content="#6B0EC8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Orvalho</title>
+    <title>Estrelas & Versos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1 ><a href="index.html" id="logo">✴Orvalho</a></h1>
+        <h1 ><a href="index.html" id="logo">✴Estrelas & Versos</a></h1>
 
         <nav id="nav_container">
             <ul id="nav_list">
@@ -21,7 +22,7 @@
 
     <main>
         <section id="hero">
-            <h1 id="hero_title">Orvalho</h1>
+            <h1 id="hero_title">Estrelas & Versos</h1>
             <p id="hero_description">Bem-vindo ao lugar onde todos os meus pensamentos, sentimentos e desejos ganham vida própria nas vastas linhas das estrofes.</p>
 
         </section>
@@ -39,12 +40,12 @@
             <h1 id="main_title">Melhores poemas e reflexões</h1>
 
             <section id="main_subcontainer">
-                <div>
+                <div class="card">
                     <div class="cover_container">
-                        <a href=""><img src="images/transferir-(23).jpg" alt="capa do primeiro melhor poema"></a>
+                        <a href=""><img src="images/transferir-(23).jpg" alt="capa do primeiro melhor poema" class="cover-image"></a>
                     </div>
                     <div class="poem-text">
-                        <h2><a href="" class="poem-title">Você me amaria?</a></h2>
+                        <h2 class="poem-title-h"><a href="" class="poem-title">Você me amaria?</a></h2>
 
                         <div class="tag-container">
                             <p class="tag">Poema</p>
@@ -52,41 +53,46 @@
                             <p class="tag">Incerteza</p>
                         </div>
 
-                        <p class="poem-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima adipisci vitae rem cupiditate dignissimos labore tempora commodi maxime ex, saepe alias architecto dicta quo distinctio aspernatur illo aut cum fugit.</p>
+                        <p class="poem-description">Você me amaria, se descobrisse o que eu escondo de todos? 
+                        Você me amaria se conhecesse meus defeitos mais obscuros?
+                        Você ainda me amaria se eu mostrasse meu verdadeiro eu?</p>
                     </div>
                 </div>
                 
-                <div>
+                <div class="card">
                     <div class="cover_container">
-                        <a href=""><img src="images/transferir-(23).jpg" alt="capa do primeiro melhor poema"></a>
+                        <a href=""><img src="images/moto-casal.jpg" alt="capa do primeiro melhor poema" class="cover-image"></a>
                     </div>
                     <div class="poem-text">
-                        <h2><a href="" class="poem-title">Você me amaria?</a></h2>
+                        <h2 class="poem-title-h"><a href="" class="poem-title">Infinitamente SIM</a></h2>
 
                         <div class="tag-container">
                             <p class="tag">Poema</p>
-                            <p class="tag">Triste</p>
-                            <p class="tag">Incerteza</p>
+                            <p class="tag">Amor</p>
                         </div>
 
-                        <p class="poem-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima adipisci vitae rem cupiditate dignissimos labore tempora commodi maxime ex, saepe alias architecto dicta quo distinctio aspernatur illo aut cum fugit.</p>
+                        <p class="poem-description">Siiiiiiiiiiiimmm!
+                        Quero gritar seu nome,para todo mundo ouvir que eu te amo
+                        Siiiiiiiiiiiimmm!
+                        Quero pintar o céu, para todo mundo ver que eu te amo</p>
                     </div>
                 </div>
 
-                <div>
+                <div class="card">
                     <div class="cover_container">
-                        <a href=""><img src="images/transferir-(23).jpg" alt="capa do primeiro melhor poema"></a>
+                        <a href=""><img src="images/menina.jpg" alt="capa do primeiro melhor poema" class="cover-image"></a>
                     </div>
                     <div class="poem-text">
-                        <h2><a href="" class="poem-title">Você me amaria?</a></h2>
+                        <h2 class="poem-title-h"><a href="" class="poem-title">Tudo em você</a></h2>
 
                         <div class="tag-container">
-                            <p class="tag">Poema</p>
-                            <p class="tag">Triste</p>
-                            <p class="tag">Incerteza</p>
+                            <p class="tag">Reflexão</p>
+                            <p class="tag">Declaração</p>
                         </div>
 
-                        <p class="poem-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima adipisci vitae rem cupiditate dignissimos labore tempora commodi maxime ex, saepe alias architecto dicta quo distinctio aspernatur illo aut cum fugit.</p>
+                        <p class="poem-description">Por acaso, você já se perguntou porque me aproximei de ti?
+                        Ou porquê perguntei seu nome?
+                        Ou porquê que mesmo não tendo nenhum assunto de conversa, eu fazia qualquer pergunta boba?</p>
                     </div>
                 </div>
 
@@ -97,11 +103,11 @@
     </main>
 
     <footer>
-        <h2>MINHAS REDES SOCIAIS</h2>
-        <ul>
-            <li><a href="">Github</a></li>
-            <li><a href="">Youtube</a></li>
-            <li><a href="">Facebook</a></li>
+        <h2 id="footer-title">MINHAS REDES SOCIAIS</h2>
+        <ul id="footer-list">
+            <li class="footer-list"><a href="https://www.github.com/joaquim-mahuma/" target="_blank" rel="nofollow" class="link-footer"><img src="images/github.png" alt=""> Github</a></li>
+            <li class="footer-list"><a href="https://www.youtube.com/@AvanJestt" target="_blank" rel="nofollow" class="link-footer"><img src="images/youtube (1).png" alt=""> Youtube</a></li>
+            <li class="footer-list"><a href="https://tiktok.com/@avan_jest/" target="_blank" rel="nofollow" class="link-footer"><img src="images/tiktok.png" alt=""> Tiktok</a></li>
         </ul>
     </footer>
 </body>
