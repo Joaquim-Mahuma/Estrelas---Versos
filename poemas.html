@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poemas - Estrelas & Versos</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --cor1: #FCFCFC;
+            --cor2: #F2D8F7;
+            --cor3: #7E4EAC;
+            --cor4: #6B0EC8;
+            --cor5: #2E165B;
+            --cor6: #120632;
+            --cor7: #02000A;
+            
+
+            --text: 'Poppins', Arial, Helvetica, sans-serif;
+            --title: 'Aiguillete', 'Times New Roman', Times, serif;
+        }
+
+        #poemas-title {
+            color: var(--cor3);
+            margin-bottom: 20px;
+        }
+
+        .card-poem {
+            background-color: var(--cor2);
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 40px;
+            border-radius: 10px 0px 20px 0px;
+
+            padding-right: 40px;
+            
+        }
+
+        .card-cover {
+            border-radius: 20px 0px 0px 0px;
+        }
+
+        .card-cover-link {
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 ><a href="index.html" id="logo">✴Estrelas & Versos</a></h1>
+
+        <nav id="nav_container">
+            <ul id="nav_list">
+                <li class="nav_item"><a href="poesias.html" class="nav_link">Poemas</a></li>
+                <li class="nav_item"><a href="reflexoes.html" class="nav_link">Reflexões</a></li>
+                <li class="nav_item"><a href="sobre.html" class="nav_link">Sobre mim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 id="poemas-title">Todos os meus Poemas</h1>
+
+        <section>
+            <div class="card-poem">
+                <a href="" class="card-cover-link"><img src="images/transferir-(23).jpg" alt="" class="card-cover"></a>
+
+                <div>
+                    <h2 class="card-title"><a href="">Meu superpoder</a></h2>
+                    <p class="card-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt aperiam dignissimos soluta, mollitia exercitationem eum asperiores totam. A reiciendis minima nesciunt, aliquid laboriosam, unde, delectus sequi labore sint sunt dolorum?</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2 id="footer-title">MINHAS REDES SOCIAIS</h2>
+        <ul id="footer-list">
+            <li class="footer-list"><a href="https://www.github.com/joaquim-mahuma/" target="_blank" rel="nofollow" class="link-footer"><img src="images/github.png" alt=""> Github</a></li>
+            <li class="footer-list"><a href="https://www.youtube.com/@AvanJestt" target="_blank" rel="nofollow" class="link-footer"><img src="images/youtube (1).png" alt=""> Youtube</a></li>
+            <li class="footer-list"><a href="https://tiktok.com/@avan_jest/" target="_blank" rel="nofollow" class="link-footer"><img src="images/tiktok.png" alt=""> Tiktok</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
